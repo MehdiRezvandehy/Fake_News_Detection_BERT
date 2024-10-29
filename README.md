@@ -1,3 +1,5 @@
+# Fake News Detection by Fine-tuning BERT Model
+
 Large language models (LLMs), rooted in the Transformer architecture, are specialized AI models trained on extensive text data to understand and generate human language, code, and more. These models exhibit remarkable accuracy and versatility, excelling in tasks from text classification to the generation of fluent and stylistically nuanced content.
 
 BERT, or Bidirectional Encoder Representations from Transformers, involves utilizing pre-trained BERT models to analyze and classify sequences of text. BERT excels in capturing contextual information by considering both left and right context for each word in a sentence. Fine-tuning BERT for sequence classification involves adding a classification layer on top of the pre-trained BERT model and training it on a labeled dataset. This allows BERT to adapt its representations to the specific classification task. In this notebook, we initially delve into the introduction of LLM, focusing specifically on BERT, and explore the process of fine-tuning BERT to detect fake news.
